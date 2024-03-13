@@ -1,0 +1,30 @@
+void main(){
+  int a=8;
+  double b=3.2;
+  num c=3.9;
+  String d = "Hello";
+  bool e=false;
+  print(a);
+  print(b);
+  print(c);
+  print(d);
+  print(e);
+  List f=[1,2,3,4,5,6];
+  List g=[1,2,3,4,5,'s', true, 3.3];
+  List<int> h=[1,2,3,4,5,6];
+  List<String> i=["1", '2', '3'];
+  List<dynamic> j=[1,2,3,4,5,'s', false, 2.2];
+  print(f);
+  print(g);
+  print(h);
+  print(i);
+  print(j);
+  Map k = {'name': 'mohammad', 'surname': 'fallah'};
+  Map<String, String> l = {'name': 'mohammad', 'surname': 'fallah'};
+  Map<String, dynamic> m = {'name': 5, 'surname': true};
+  Map<dynamic, dynamic> n = {1: 5, 3.3: true, false: "salam"};
+  print(k);
+  print(l);
+  print(m);
+  print(n);
+}
